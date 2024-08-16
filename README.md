@@ -1,2 +1,1 @@
-# Link Summit
-XepLich: Updating..
+A place to Code and Chill
