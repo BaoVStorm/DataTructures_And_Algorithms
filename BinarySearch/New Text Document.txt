@@ -1,0 +1,17 @@
+int BinarySearch(vector<int>& nums, int d, int c, int x) //
+    {
+        int m;
+
+        while(d < c) {
+            m = (d + c + 1) / 2;
+            if(nums[m] == x)
+                return m;
+                
+            if(nums[m] < x)
+                d = m;
+            else
+                c = m - 1;
+        }
+
+        return d;
+    }
